@@ -1,6 +1,20 @@
+<!DOCTYPE html>
 <html>
-<title>Accidentologie</title>
+<head>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+</head>
+<body>
+<div id="viz"></div>
+<script type="text/javascript">
 
+    d3.json("/EC-Accidentologie/web/accidentologie_short.json", function(error, json) {
+        if (error) {
+            alert('Erreur lors du chargement du fichier JSON');
+        }
+        result = json;
+        console.log(json[0]);
+    });
 
-
+</script>
+</body>
 </html>
