@@ -1,1 +1,301 @@
-[{"datasetid": "accidentologie", "recordid": "6e7fc62ad5bac33f320dc8308a36a638d561d80d", "fields": {"vehicule_1_lveh": "A", "lieu_2_nomv": "BOULEVARD MACDONALD", "coordonnees": [48.896117, 2.383857], "usager_1_grav": "BL", "code_postal": 75119, "carr": "1_75119_10244", "com": 119, "adresse": "AVENUE CORENTIN CARIOU", "usager_1_catu": "Cond", "dept": 75, "date": "2013-10-07", "usager_1_lveh": "A", "lieu_1_nomv": "AVENUE CORENTIN CARIOU", "vehicule_1_cadmin": "Moto50-125", "heure": "05:45"}, "geometry": {"type": "Point", "coordinates": [2.383857, 48.896117]}, "record_timestamp": "2014-08-13T23:11:02+02:00"},{"datasetid": "accidentologie", "recordid": "7196499629345de4b48facec5079aeb3be69bf20", "fields": {"vehicule_1_lveh": "A", "lieu_2_nomv": "RUE CLAVEL", "coordonnees": [48.873659, 2.383921], "usager_1_grav": "BL", "code_postal": 75119, "carr": "1_75119_10266", "com": 119, "vehicle_2_cadmin": "VL", "adresse": "79, RUE DE BELLEVILLE", "usager_1_catu": "Cond", "dept": 75, "vehicule_2_lveh": "Z", "date": "2013-02-05", "usager_1_lveh": "A", "lieu_1_nomv": "RUE DE BELLEVILLE", "vehicule_1_cadmin": "Scoo<=50", "heure": "13:50"}, "geometry": {"type": "Point", "coordinates": [2.383921, 48.873659]}, "record_timestamp": "2014-08-13T23:11:02+02:00"},{"datasetid": "accidentologie", "recordid": "b6fceeb8250145be5a3e2bf096cb6b67dbd4a966", "fields": {"vehicule_1_lveh": "A", "usager_2_lveh": "B", "coordonnees": [48.88739, 2.387161], "usager_1_grav": "Indem", "code_postal": 75119, "usager_2_catu": "Cond", "carr": "1_75119_10363", "com": 119, "vehicle_2_cadmin": "Scoo<=50", "adresse": "163, AVENUE JEAN JAURES", "lieu_2_nomv": "RUE DES ARDENNES", "dept": 75, "usager_2_grav": "BL", "vehicule_2_lveh": "B", "date": "2012-12-11", "usager_1_lveh": "A", "lieu_1_nomv": "AVENUE JEAN JAURES", "usager_1_catu": "Cond", "vehicule_1_cadmin": "VL", "heure": "14:50"}, "geometry": {"type": "Point", "coordinates": [2.387161, 48.88739]}, "record_timestamp": "2014-08-13T23:11:02+02:00"},{"datasetid": "accidentologie", "recordid": "e62caffafb856e566d2a5c44e66de298ba2f98f4", "fields": {"vehicule_1_lveh": "A", "usager_2_lveh": "B", "coordonnees": [48.885578, 2.386701], "usager_1_grav": "BL", "code_postal": 75119, "usager_2_catu": "Cond", "carr": "1_75119_10374", "com": 119, "vehicle_2_cadmin": "Scoo<=50", "adresse": "66, RUE PETIT", "lieu_2_nomv": "RUE D HAUTPOUL", "dept": 75, "usager_2_grav": "BL", "vehicule_2_lveh": "B", "date": "2012-05-06", "usager_1_lveh": "A", "lieu_1_nomv": "RUE PETIT", "usager_1_catu": "Cond", "vehicule_1_cadmin": "Cyclo", "heure": "13:00"}, "geometry": {"type": "Point", "coordinates": [2.386701, 48.885578]}, "record_timestamp": "2014-08-13T23:11:02+02:00"},{"datasetid": "accidentologie", "recordid": "9d92c382f849919876ce633e51a38ba921aa4a70", "fields": {"vehicule_1_lveh": "A", "usager_2_lveh": "B", "usager_1_grav": "Indem", "code_postal": 75119, "usager_2_catu": "Cond", "carr": "1_75119_10410", "heure": "19:12", "vehicle_2_cadmin": "Moto>125", "adresse": "1, PLACE AUGUSTE BARON", "lieu_2_nomv": "ECH VILLETTE-DG/19", "dept": 75, "usager_2_grav": "BH", "vehicule_2_lveh": "B", "date": "2013-03-28", "usager_1_lveh": "A", "lieu_1_nomv": "PLACE AUGUSTE BARON", "usager_1_catu": "Cond", "vehicule_1_cadmin": "VU", "com": 119}, "record_timestamp": "2014-08-13T23:11:02+02:00"},{"datasetid": "accidentologie", "recordid": "89ab24e21a2181cbc9df0946e5f6fd8d58538d18", "fields": {"vehicule_1_lveh": "A", "usager_2_lveh": "A", "coordonnees": [48.875613, 2.387337], "usager_1_grav": "BL", "code_postal": 75119, "usager_2_catu": "Pi\u00e9to", "carr": "1_75119_10426", "com": 119, "adresse": "17, RUE DE LA VILLETTE", "lieu_2_nomv": "RUE DELOUVAIN", "dept": 75, "usager_2_grav": "BL", "date": "2012-12-05", "usager_1_lveh": "A", "lieu_1_nomv": "RUE DE LA VILLETTE", "usager_1_catu": "Cond", "vehicule_1_cadmin": "VU", "heure": "09:30"}, "geometry": {"type": "Point", "coordinates": [2.387337, 48.875613]}, "record_timestamp": "2014-08-13T23:11:02+02:00"},{"datasetid": "accidentologie", "recordid": "bb5d92e5c5c4ff7a85f4a4b9c7d9bf2a7526fd2e", "fields": {"vehicule_1_lveh": "A", "usager_2_lveh": "A", "coordonnees": [48.885725, 2.387921], "usager_1_grav": "Indem", "code_postal": 75119, "usager_2_catu": "Pi\u00e9to", "carr": "1_75119_10451", "com": 119, "adresse": "76, RUE PETIT", "lieu_2_nomv": "RUE DE LUNEVILLE", "dept": 75, "usager_2_grav": "BL", "date": "2012-08-27", "usager_1_lveh": "A", "lieu_1_nomv": "RUE PETIT", "usager_1_catu": "Cond", "vehicule_1_cadmin": "Moto>125", "heure": "18:35"}, "geometry": {"type": "Point", "coordinates": [2.387921, 48.885725]}, "record_timestamp": "2014-08-13T23:11:02+02:00"},{"datasetid": "accidentologie", "recordid": "219f4a069629a597598e963f9ae912fbe6c6c9f6", "fields": {"vehicule_1_lveh": "A", "usager_2_lveh": "B", "coordonnees": [48.882555, 2.386028], "usager_1_grav": "Indem", "code_postal": 75119, "usager_2_catu": "Cond", "carr": "1_75119_10467", "com": 119, "vehicle_2_cadmin": "Moto>125", "adresse": "RUE MANIN", "lieu_2_nomv": "RUE D HAUTPOUL", "dept": 75, "usager_2_grav": "BL", "vehicule_2_lveh": "B", "date": "2012-01-10", "usager_1_lveh": "A", "lieu_1_nomv": "RUE MANIN", "usager_1_catu": "Cond", "vehicule_1_cadmin": "VL", "heure": "13:00"}, "geometry": {"type": "Point", "coordinates": [2.386028, 48.882555]}, "record_timestamp": "2014-08-13T23:11:02+02:00"},{"datasetid": "accidentologie", "recordid": "5e7f3bdc1733c522e8fe01fd1c4b8016860dbf83", "fields": {"vehicule_1_lveh": "A", "usager_2_lveh": "B", "usager_1_grav": "Indem", "code_postal": 75119, "usager_2_catu": "Cond", "carr": "1_75119_10479", "heure": "10:55", "vehicle_2_cadmin": "Scoo50-125", "adresse": "1, PLACE AUGUSTE BARON", "lieu_2_nomv": "NON DENOMMEE DI/19", "dept": 75, "usager_2_grav": "BL", "vehicule_2_lveh": "B", "date": "2012-03-15", "usager_1_lveh": "A", "lieu_1_nomv": "PLACE AUGUSTE BARON", "usager_1_catu": "Cond", "vehicule_1_cadmin": "VU", "com": 119}, "record_timestamp": "2014-08-13T23:11:02+02:00"}]
+[
+  {
+    "datasetid": "accidentologie",
+    "recordid": "6e7fc62ad5bac33f320dc8308a36a638d561d80d",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "lieu_2_nomv": "BOULEVARD MACDONALD",
+      "coordonnees": [
+        48.896117,
+        2.383857
+      ],
+      "usager_1_grav": "BL",
+      "code_postal": 75119,
+      "carr": "1_75119_10244",
+      "com": 119,
+      "adresse": "AVENUE CORENTIN CARIOU",
+      "usager_1_catu": "Cond",
+      "dept": 75,
+      "date": "2013-10-07",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "AVENUE CORENTIN CARIOU",
+      "vehicule_1_cadmin": "Moto50-125",
+      "heure": "05:45"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.383857,
+        48.896117
+      ]
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  },
+  {
+    "datasetid": "accidentologie",
+    "recordid": "7196499629345de4b48facec5079aeb3be69bf20",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "lieu_2_nomv": "RUE CLAVEL",
+      "coordonnees": [
+        48.873659,
+        2.383921
+      ],
+      "usager_1_grav": "BL",
+      "code_postal": 75119,
+      "carr": "1_75119_10266",
+      "com": 119,
+      "vehicle_2_cadmin": "VL",
+      "adresse": "79, RUE DE BELLEVILLE",
+      "usager_1_catu": "Cond",
+      "dept": 75,
+      "vehicule_2_lveh": "Z",
+      "date": "2013-02-05",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "RUE DE BELLEVILLE",
+      "vehicule_1_cadmin": "Scoo<=50",
+      "heure": "13:50"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.383921,
+        48.873659
+      ]
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  },
+  {
+    "datasetid": "accidentologie",
+    "recordid": "b6fceeb8250145be5a3e2bf096cb6b67dbd4a966",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "usager_2_lveh": "B",
+      "coordonnees": [
+        48.88739,
+        2.387161
+      ],
+      "usager_1_grav": "Indem",
+      "code_postal": 75119,
+      "usager_2_catu": "Cond",
+      "carr": "1_75119_10363",
+      "com": 119,
+      "vehicle_2_cadmin": "Scoo<=50",
+      "adresse": "163, AVENUE JEAN JAURES",
+      "lieu_2_nomv": "RUE DES ARDENNES",
+      "dept": 75,
+      "usager_2_grav": "BL",
+      "vehicule_2_lveh": "B",
+      "date": "2012-12-11",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "AVENUEJEANJAURES",
+      "usager_1_catu": "Cond",
+      "vehicule_1_cadmin": "VL",
+      "heure": "14:50"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.387161,
+        48.88739
+      ]
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  },
+  {
+    "datasetid": "accidentologie",
+    "recordid": "e62caffafb856e566d2a5c44e66de298ba2f98f4",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "usager_2_lveh": "B",
+      "coordonnees": [
+        48.885578,
+        2.386701
+      ],
+      "usager_1_grav": "BL",
+      "code_postal": 75119,
+      "usager_2_catu": "Cond",
+      "carr": "1_75119_10374",
+      "com": 119,
+      "vehicle_2_cadmin": "Scoo<=50",
+      "adresse": "66, RUE PETIT",
+      "lieu_2_nomv": "RUE D HAUTPOUL",
+      "dept": 75,
+      "usager_2_grav": "BL",
+      "vehicule_2_lveh": "B",
+      "date": "2012-05-06",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "RUE PETIT",
+      "usager_1_catu": "Cond",
+      "vehicule_1_cadmin": "Cyclo",
+      "heure": "13:00"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.386701,
+        48.885578
+      ]
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  },
+  {
+    "datasetid": "accidentologie",
+    "recordid": "9d92c382f849919876ce633e51a38ba921aa4a70",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "usager_2_lveh": "B",
+      "usager_1_grav": "Indem",
+      "code_postal": 75119,
+      "usager_2_catu": "Cond",
+      "carr": "1_75119_10410",
+      "heure": "19:12",
+      "vehicle_2_cadmin": "Moto>125",
+      "adresse": "1, PLACE AUGUSTE BARON",
+      "lieu_2_nomv": "ECH VILLETTE-DG/19",
+      "dept": 75,
+      "usager_2_grav": "BH",
+      "vehicule_2_lveh": "B",
+      "date": "2013-03-28",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "PLACE AUGUSTE BARON",
+      "usager_1_catu": "Cond",
+      "vehicule_1_cadmin": "VU",
+      "com": 119
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  },
+  {
+    "datasetid": "accidentologie",
+    "recordid": "89ab24e21a2181cbc9df0946e5f6fd8d58538d18",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "usager_2_lveh": "A",
+      "coordonnees": [
+        48.875613,
+        2.387337
+      ],
+      "usager_1_grav": "BL",
+      "code_postal": 75119,
+      "usager_2_catu": "Piéto",
+      "carr": "1_75119_10426",
+      "com": 119,
+      "adresse": "17, RUE DE LA VILLETTE",
+      "lieu_2_nomv": "RUE DELOUVAIN",
+      "dept": 75,
+      "usager_2_grav": "BL",
+      "date": "2012-12-05",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "RUE DE LA VILLETTE",
+      "usager_1_catu": "Cond",
+      "vehicule_1_cadmin": "VU",
+      "heure": "09:30"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.387337,
+        48.875613
+      ]
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  },
+  {
+    "datasetid": "accidentologie",
+    "recordid": "bb5d92e5c5c4ff7a85f4a4b9c7d9bf2a7526fd2e",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "usager_2_lveh": "A",
+      "coordonnees": [
+        48.885725,
+        2.387921
+      ],
+      "usager_1_grav": "Indem",
+      "code_postal": 75119,
+      "usager_2_catu": "Piéto",
+      "carr": "1_75119_10451",
+      "com": 119,
+      "adresse": "76, RUE PETIT",
+      "lieu_2_nomv": "RUE DE LUNEVILLE",
+      "dept": 75,
+      "usager_2_grav": "BL",
+      "date": "2012-08-27",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "RUE PETIT",
+      "usager_1_catu": "Cond",
+      "vehicule_1_cadmin": "Moto>125",
+      "heure": "18:35"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.387921,
+        48.885725
+      ]
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  },
+  {
+    "datasetid": "accidentologie",
+    "recordid": "219f4a069629a597598e963f9ae912fbe6c6c9f6",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "usager_2_lveh": "B",
+      "coordonnees": [
+        48.882555,
+        2.386028
+      ],
+      "usager_1_grav": "Indem",
+      "code_postal": 75119,
+      "usager_2_catu": "Cond",
+      "carr": "1_75119_10467",
+      "com": 119,
+      "vehicle_2_cadmin": "Moto>125",
+      "adresse": "RUE MANIN",
+      "lieu_2_nomv": "RUE D HAUTPOUL",
+      "dept": 75,
+      "usager_2_grav": "BL",
+      "vehicule_2_lveh": "B",
+      "date": "2012-01-10",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "RUE MANIN",
+      "usager_1_catu": "Cond",
+      "vehicule_1_cadmin": "VL",
+      "heure": "13:00"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.386028,
+        48.882555
+      ]
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  },
+  {
+    "datasetid": "accidentologie",
+    "recordid": "5e7f3bdc1733c522e8fe01fd1c4b8016860dbf83",
+    "fields": {
+      "vehicule_1_lveh": "A",
+      "usager_2_lveh": "B",
+      "usager_1_grav": "Indem",
+      "code_postal": 75119,
+      "usager_2_catu": "Cond",
+      "carr": "1_75119_10479",
+      "heure": "10:55",
+      "vehicle_2_cadmin": "Scoo50-125",
+      "adresse": "1, PLACE AUGUSTE BARON",
+      "lieu_2_nomv": "NON DENOMMEE DI/19",
+      "dept": 75,
+      "usager_2_grav": "BL",
+      "vehicule_2_lveh": "B",
+      "date": "2012-03-15",
+      "usager_1_lveh": "A",
+      "lieu_1_nomv": "PLACE AUGUSTE BARON",
+      "usager_1_catu": "Cond",
+      "vehicule_1_cadmin": "VU",
+      "com": 119
+    },
+    "record_timestamp": "2014-08-13T23:11:02+02:00"
+  }
+]
