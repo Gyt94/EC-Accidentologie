@@ -1,0 +1,26 @@
+h1, p {
+	text-align: center;
+}
+
+#map {
+	margin: 0 auto;
+	width: 1000px;
+	height: 780px;
+}
+
+svg {
+  position: relative;
+}
+
+path {
+  fill: #111;
+  fill-opacity: .2;
+
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+path:hover {
+  fill: yellow;
+  fill-opacity: .9;
+}
