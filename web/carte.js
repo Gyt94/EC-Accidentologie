@@ -58,7 +58,20 @@ d3.json("paris.json", function(error, collection) {
     this.stream.point(point.x, point.y);
   }
 
+  var popup = L.popup();
+
+  function onMapClick(e) {
+      popup
+          .setLatLng(e.latlng)
+          .setContent("Nombre d'accidents ")
+          .openOn(map);
+  }
+
+  map.on('click', onMapClick);
+
 });
+
+
 
 
 
