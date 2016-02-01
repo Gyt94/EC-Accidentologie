@@ -67,7 +67,7 @@ d3.json("paris.json", function(error, collection) {
           .openOn(map);
   }
 
-  map.on('click', onMapClick);
+  //map.on('click', onMapClick);
 
 });
 
