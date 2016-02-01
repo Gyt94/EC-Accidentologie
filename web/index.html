@@ -1,21 +1,22 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
   <head>
     <title>Projet Accidentologie Paris</title>
     <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
-	  <script src="script.js"></script>
+	<script src="script.js"></script>
     <script>
       var result;
-      // Chargement des donn�es
+      // Chargement des données
       d3.json("accidentologie.json", function(data) {
         result = data;
-          // Ne rend visible les boutons que lorsque les donn�es sont charg�es
+          // Ne rend visible les boutons que lorsque les données sont chargées
           d3.selectAll("button")
           .style("visibility", "visible");
       });
@@ -25,17 +26,7 @@
   <body>
 
     <h1>Accidentologie a Paris</h1>
-    <button onclick="a();" style="visibility: visible;">Afficher le tableau</button>
-	<table id="tableau">
-            <caption>Donnees</caption>
-            <thead>
-                <tr>
-                    <th>Code Postal</th>
-                    <th>Nb Accident</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-    </table>
+
     <div id="map" >
       <script src ="carte.js"></script>
     </div>
@@ -43,6 +34,23 @@
     <div id="chart">
       <script scr="charts.js"></script>
     </div>
+	    <button onclick="a();" style="visibility: visible;" class="button">Afficher le tableau</button>
+	<div style="overflow-x:auto;">
+	<table id="tableau">
+            <h2>Données d'accidentologie globale</h2>
+            <thead>
+                <tr>
+                    <th>Code Postal</th>
+                    <th>Nb Accident</th>
+					<th>Nb Accident VL</th>
+					<th>Nb Accident VU</th>
+					<th>Nb Accident Moto</th>
+					<th>Nb Accident Piétons</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+    </table>
+	</div>
   </body>
   
 </html>
