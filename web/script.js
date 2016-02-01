@@ -97,3 +97,21 @@ function nb_categ(data){
 	var ret = [nb_vl,nb_vu,nb_moto,nb_pieton];
 	return ret
 }
+function nbAccByCP(data){
+	var tcp = cp(data);
+	var ret=new Array();
+	for(var ncp of tcp){
+		ret.push(cp_nb(ncp,data));
+	}
+	return ret
+}
+
+function b(){
+	 var data=nbAccByCP(result);
+d3.select(".chart")
+  .selectAll("div")
+    .data(data)
+  .enter().append("div")
+    .style("width", function(d) { return d  + "px"; })
+    .text(function(d) { return d; });
+}
