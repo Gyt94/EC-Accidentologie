@@ -1,7 +1,7 @@
 //limites de la carte
 var limiteBasDroite = L.latLng(48.791776, 2.451451),
     limiteHautGauche = L.latLng(48.926351, 2.224334);
-
+var first = 0;
 var map = L.map('map', {
   center: [48.858, 2.335],
   zoom: 13,
@@ -31,7 +31,9 @@ d3.json("paris.json", function(error, collection) {
 
   var feature = g.selectAll("path")
   .data(collection.features)
-  .enter().append("path");
+  .enter().append("path")
+  .property("code_postal", function (d) { return d.properties.code; })
+  .on('click', onMapClick);;
 
   map.on("viewreset", affichageDynamique);
   affichageDynamique();
@@ -61,10 +63,76 @@ d3.json("paris.json", function(error, collection) {
   var popup = L.popup();
 
   function onMapClick(e) {
-      popup
-          .setLatLng(e.latlng)
-          .setContent("Nombre d'accidents ")
-          .openOn(map);
+       var tooltip = d3.select("#tooltip"),
+	   code = tooltip.select("#code"),
+	   nbAccident = tooltip.select("#nba");
+	   
+	   code.html(e.properties.code);
+	   nbAccident.html(cp_nb(e.properties.code,result));
+	   if(tooltip.style.display == "initial"){
+		   tooltip.style("display", none);
+	   }else{
+	   tooltip.style("display", "initial");
+	   }
+	   tooltip.style("top", d3.event.pageY - 125 + "px");
+	   tooltip.style("left", d3.event.pageX + 10 + "px");
+	var data=nb_categ(accByCP(result,e.properties.code));
+
+	var width = "80%",
+    barHeight = 20;
+
+
+var chart = d3.select(".chart")
+    .attr("width", width)
+    .attr("height", barHeight * data.length);
+	if(first==0){
+var bar = chart.selectAll("g")
+    .data(data)
+  .enter().append("g")
+    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
+
+bar.append("rect")
+    .attr("width", function(d) { return d+"px"; })
+    .attr("height", barHeight - 1);
+
+bar.append("text")
+    .attr("x", function(d) { return d+"px"; })
+    .attr("y", barHeight / 2)
+    .attr("dy", ".35em")
+    .text(function(d) { return d; });
+	first++;
+	}else{
+		var bar = chart.selectAll("g")
+			.data(data);
+		bar.select("rect")
+		.transition()
+		.duration(750)
+		.attr("width", function(d) {return d+"px";})
+		bar.select("text")
+		.transition()
+		.duration(750)
+		.attr("x", function(d) { return d+"px"; })
+		.attr("y", barHeight / 2)
+		.attr("dy", ".35em")
+		.text(function(d) { return d; });
+	}
+	
+	/*
+	d3.data(function(error,data){
+		var svg = d3.select(".chart").transition();
+		svg.selectAll("div")
+			.style("width", function(d) { return d  + "px"; })
+			.text(function(d) { return d; });
+	});
+	*/
+	  /* 
+	  var e = d3.select(".chart")
+      .selectAll("div")
+        .data(data);
+     	e.enter().append("div")
+        .style("width", function(d) { return d  + "px"; })
+        .text(function(d) { return d; });*/
+
   }
 
   //map.on('click', onMapClick);

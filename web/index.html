@@ -30,11 +30,14 @@
     <div id="map" >
       <script src ="carte.js"></script>
     </div>
-
+	<div id="tooltip">
+		<p><strong>Code</strong> : <span id="code"></span></p>
+		<p><strong>Nb Accidents</strong> : <span id="nba"></span></p>
+	</div>
 	<button onclick="b();" style="visibility: visible;" class="button">Afficher le graphe</button>
-    <div class="chart">
+    <svg class="chart">
 
-    </div>
+    </svg>
 	    <button onclick="a();" style="visibility: visible;" class="button">Afficher le tableau</button>
 	<div style="overflow-x:auto;">
 	<table id="tableau">

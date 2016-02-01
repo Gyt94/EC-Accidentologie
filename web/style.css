@@ -50,6 +50,16 @@ h2 {
   margin: 1px;
   color: white;
 }
+#tooltip {
+    display: none;
+	padding:10px;
+    z-index: 999;
+    position: absolute;
+	background-color:white;
+    width: auto;
+    border: 2px solid #999;
+    border-radius: 25px;
+}
 #tableau {
 	margin-left:auto;
    margin-right:auto;
@@ -88,6 +98,16 @@ th {
     color: #4CAF50;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
 /* Centrage des div conteneurs */
 #tab, #columnChart, #barChart {
   text-align: center;
