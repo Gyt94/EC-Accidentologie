@@ -24,6 +24,8 @@ function a() {
     })
 
 };
+
+//Return : le nombre d'accidents du CP en parametre
 function cp_nb(cp,nresult) {
 	var cpt=0;
     for(var acc1 of nresult) {
@@ -35,6 +37,7 @@ function cp_nb(cp,nresult) {
 	return cpt
 }
 
+//Return : les code postaux des données d'accidents
 function cp(accidents){
 	var ret=[accidents[0].fields.code_postal];
 	for(var acc1 of accidents) {
@@ -44,8 +47,13 @@ function cp(accidents){
 			}
 		//}
 	}
+	ret.sort(function(a, b) {
+    return a - b;
+	});
 	return ret
 }
+
+//Return : les accidents de la date en parametre
 function byDate(res,date){
 	var ret=new Array();
 	for(acc of res){
@@ -56,6 +64,7 @@ function byDate(res,date){
 	return ret
 }
 
+//Return : les accidents du CP en parametre
 function accByCP(data,cp){
 	var ret = new Array();
 	for(acc of data){
@@ -66,6 +75,7 @@ function accByCP(data,cp){
 	return ret
 }
 
+//Return : le nombre d'accident par categorie (Vl,VU,Moto,Pieton)
 function nb_categ(data){
 	var nb_vl=0,nb_vu=0,nb_pieton=0,nb_moto=0;
 	for(var acc of data){
@@ -97,18 +107,21 @@ function nb_categ(data){
 	var ret = [nb_vl,nb_vu,nb_moto,nb_pieton];
 	return ret
 }
+
+//Return : le nombre d'accidents par CP sur toutes les donnees
 function nbAccByCP(data){
 	var tcp = cp(data);
 	var ret=new Array();
 	for(var ncp of tcp){
 		ret.push(cp_nb(ncp,data));
 	}
+
 	return ret
 }
 
 function b(){
 	 var data=nbAccByCP(result);
-d3.select(".chart")
+d3.select(".chart2")
   .selectAll("div")
     .data(data)
   .enter().append("div")

@@ -79,7 +79,7 @@ d3.json("paris.json", function(error, collection) {
 	var data=nb_categ(accByCP(result,e.properties.code));
 
 	var width = "80%",
-    barHeight = 20;
+    barHeight = 30;
 
 
 var chart = d3.select(".chart")
