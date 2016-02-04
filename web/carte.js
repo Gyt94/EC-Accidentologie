@@ -4,7 +4,7 @@ var limiteBasDroite = L.latLng(48.791776, 2.451451),
 var first = 0;
 var map = L.map('map', {
   center: [48.858, 2.335],
-  zoom: 13,
+  zoom: 12,
   minZoom: 12,
   maxZoom: 14,
   maxBounds: L.latLngBounds(limiteBasDroite, limiteHautGauche)
@@ -82,6 +82,26 @@ d3.json("paris.json", function(error, collection) {
     barHeight = 30;
 
 
+      //Tableau type de véhicules
+      var labels = ["2 roues","Voiture", "Piétons", "Poids Lourds"];
+      var padding = 30;
+	  //Creation des differentes variable
+	  var xScale = d3.scale.linear()
+		  .domain([0, 1000])
+		  .range([0, 1250]);
+
+	  var xAxis = d3.svg.axis()
+		  .scale(xScale);
+
+
+      var yScale = d3.scale.linear()
+          .domain([0, 1000])
+          .range([0, 1250]);
+
+      var yAxis = d3.svg.axis()
+          .scale(yScale)
+          .tickValues(labels);
+
 var chart = d3.select(".chart")
     .attr("width", width)
     .attr("height", barHeight * data.length);
@@ -89,11 +109,11 @@ var chart = d3.select(".chart")
 var bar = chart.selectAll("g")
     .data(data)
   .enter().append("g")
-    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
-
+    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; })
 bar.append("rect")
     .attr("width", function(d) { return d+"px"; })
     .attr("height", barHeight - 1);
+
 
 bar.append("text")
     .attr("x", function(d) { return d+"px"; })

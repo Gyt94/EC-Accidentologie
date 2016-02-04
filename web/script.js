@@ -121,10 +121,13 @@ function nbAccByCP(data){
 
 function b(){
 	 var data=nbAccByCP(result);
-d3.select(".chart2")
+
+
+	d3.select(".chart2")
   .selectAll("div")
     .data(data)
   .enter().append("div")
     .style("width", function(d) { return d  + "px"; })
     .text(function(d) { return d; });
+
 }
